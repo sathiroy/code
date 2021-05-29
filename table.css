@@ -1,0 +1,110 @@
+body{
+    background: url(/images/ball.jpg);
+    background-size: 1500px 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.div p{
+    color: blue;
+    text-decoration: underline;
+   text-indent: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 0.75cm;
+    /*text-shadow: 2px 2px rgb(85, 46, 148);*/
+    font-family: 'Pattaya', sans-serif;
+   font-size: large;
+}
+#pa{
+    text-indent: 15px;
+    text-align: justify;   
+}
+
+
+.div{
+    color: rgb(231, 22, 22);
+    background-color: chartreuse;
+    margin: auto;
+    padding: 50px;
+    border: 20px solid blue;
+    outline: 20px solid black;
+    
+}
+.listdesign span{
+    text-indent: 15px;
+    text-align: center;
+    
+}
+#headline{
+    color: darkblue;
+    background-color: darkmagenta;
+}
+#link{
+  display: block;
+  width: 70px;
+  margin: auto;
+  padding: 25px;
+  background-color: rgb(95, 12, 12);
+  border-radius: 4px 4px;
+  text-decoration: none;
+  color: white;  
+}
+#link:hover{
+    
+    background-color: rgb(90, 17, 224);
+      color: black;
+  }
+  .listdesign{
+      width: 30%;
+      margin: auto;
+      background-color: chartreuse;
+      position: sticky;
+      top: 0px;
+  }
+  .listdesign:hover{
+      opacity: 0.5;
+  }
+
+  .listdesign ol li{
+      margin: 10px;
+      color: darkblue;
+  }
+  table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    .tabledesign{
+        width: 30%;
+        padding: 40px;
+        margin: auto;
+        background-color: white;
+        font-size: large;
+        
+    }
+  .tabledesign p{
+    background-color: rgb(132, 0, 255);
+     display: inline
+     
+  }
+  .tabledesign th{
+      color: black;
+      background-color: violet;
+      padding: 10px;
+  }
+  .tabledesign td{
+    color: black;
+    background-color: rgb(33, 218, 231);
+    padding: 5px;
+} 
+.float{
+border: 30px;
+overflow: auto;
+background-color: blanchedalmond;
+}
+.float p{
+    padding: 5%;
+    text-align: center;
+}
+.float p img{
+    float: left;
+}
